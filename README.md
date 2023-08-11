@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Requirements:
+1. Use a weather API (e.g., OpenWeatherMap API) to fetch weather data based on the user's input location.
+2. The app should have an input field where users can enter the name of a city or location.
+3. When the user submits the form or presses Enter, the app should fetch and display the current weather conditions for that location.
+4. Display the temperature in Celsius or Fahrenheit, based on the user's preference (add a toggle switch for temperature unit conversion).
+5. Show a descriptive icon (e.g., sun, clouds, rain) representing the current weather condition.
+6. Handle error cases gracefully (e.g., display an error message if the location is not found or if there's an issue with the API call).
+7. Apply appropriate CSS styles to make the app visually appealing and responsive.
