@@ -1,10 +1,11 @@
 import axios from "axios";
+//import REACT_APP_WEATHER_API_KEY from './../.env';
 
-const API_KEY = '39932d45323b6c3accbead5229453007';
+//const API_KEY = process.env.REACT_APP_WEATHER_API_KEY
 
 export const fetchWeather = async (location) => {
     try {
-        const response = await axios.get(`https://api.openweathermap.org/fdata/2.5/weather?q=${location}&units=metric&appid=${API_KEY}`);
+        const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${process.env.REACT_APP_WEATHER_API_KEY}`);
         return response.data;
     }
     catch(error) {
